@@ -1,0 +1,6 @@
+#lang racket
+
+(define (+vect v1 v2)
+  (make-vector
+   (+ (xcor v1) (xcor v2))
+   (+ (ycor v1) (ycor v2))))
